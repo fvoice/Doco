@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doco.UnitTests", "Doco.Unit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doco.Application.Interfaces", "Doco.Application.Interfaces\Doco.Application.Interfaces.csproj", "{DB3C7114-6FCC-4B7C-8917-8E6AF5BBF149}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doco.IntegrationTest", "Doco.IntegrationTest\Doco.IntegrationTest.csproj", "{1428F967-0D5F-46CD-8532-E7797E324E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{DB3C7114-6FCC-4B7C-8917-8E6AF5BBF149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB3C7114-6FCC-4B7C-8917-8E6AF5BBF149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB3C7114-6FCC-4B7C-8917-8E6AF5BBF149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1428F967-0D5F-46CD-8532-E7797E324E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1428F967-0D5F-46CD-8532-E7797E324E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1428F967-0D5F-46CD-8532-E7797E324E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1428F967-0D5F-46CD-8532-E7797E324E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{201B289C-E0A2-46C5-8C49-D33C42EB1125} = {129506C5-D330-429B-9637-B87A6D874B6C}
 		{B5468F9C-B714-4AEA-8FC6-5D03747314AC} = {495B0900-5483-4863-B05B-654AB722F13C}
 		{DB3C7114-6FCC-4B7C-8917-8E6AF5BBF149} = {81CA2BF1-4E97-49F2-8B1C-2956E30518AE}
+		{1428F967-0D5F-46CD-8532-E7797E324E2E} = {495B0900-5483-4863-B05B-654AB722F13C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B9E0514-6E83-4DC1-BE0A-1EDF9EC37814}

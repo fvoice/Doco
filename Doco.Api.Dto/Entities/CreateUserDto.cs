@@ -14,7 +14,11 @@ namespace Doco.Api.Dto.Entities
     {
         public UserCreateDtoMapProfile()
         {
-            CreateMap<CreateUserDto, User>();
+            CreateMap<CreateUserDto, User>()
+                .ForMember(x => x.Id, o => o.Ignore())
+                .ForMember(x => x.Type, o => o.Ignore())
+                .ForMember(x => x.Created, o => o.Ignore())
+                .ForMember(x => x.LastModified, o => o.Ignore());
         }
     }
 }

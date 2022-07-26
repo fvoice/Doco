@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Doco.Domain.Entities;
-using Doco.Domain.Enums;
 
 namespace Doco.Api.Dto.Entities
 {
@@ -14,7 +13,11 @@ namespace Doco.Api.Dto.Entities
     {
         public UpdateUserDtoMapProfile()
         {
-            CreateMap<UpdateUserDto, User>();
+            CreateMap<UpdateUserDto, User>()
+                .ForMember(x => x.Id, o => o.Ignore())
+                .ForMember(x => x.Type, o => o.Ignore())
+                .ForMember(x => x.Created, o => o.Ignore())
+                .ForMember(x => x.LastModified, o => o.Ignore());
         }
     }
 }

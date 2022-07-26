@@ -8,6 +8,7 @@ namespace Doco.Application.Users.Commands.UpdateUserCommand
     {
         public UpdateUserCommandValidator()
         {
+            RuleFor(x => x.User.Id).GreaterThan(0);
             RuleFor(x => x.User).NotEmpty();
             RuleFor(x => x.User.Name).NotEmpty();
             RuleFor(x => x.User.Email).NotEmpty()
