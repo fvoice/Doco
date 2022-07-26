@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Doco.Application.Interfaces\Doco.Application.Interfaces.csproj" />
     <ProjectReference Include="..\Doco.ApplicationInterfaces\Doco.Application.Interfaces.csproj" />
   </ItemGroup>
 
